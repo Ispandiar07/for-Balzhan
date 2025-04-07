@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(to bottom, #fceabb, #f8b500);
-    font-family: 'Dancing Script', cursive; /* Используем рукописный шрифт */
+    background: linear-gradient(to bottom, #d8b4fe, #9370db); /* Фиолетовый градиентный фон */
+    font-family: 'Dancing Script', cursive;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,9 +18,9 @@ body {
 }
 
 #text {
-    color: #800080;
+    color: #800080; /* Темно-фиолетовый текст */
     line-height: 1.6;
-    font-size: 1.5em; /* Увеличим размер шрифта для лучшей читаемости */
+    font-size: 1.5em;
 }
 
 .stars {
