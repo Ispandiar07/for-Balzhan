@@ -7,7 +7,7 @@ function typeText() {
     if (charIndex < text.length) {
         textElement.innerHTML += text.charAt(charIndex);
         charIndex++;
-        setTimeout(typeText, 30);
+        setTimeout(typeText, 50); // Увеличиваем значение setTimeout
     }
 }
 
